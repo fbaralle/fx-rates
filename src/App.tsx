@@ -1,7 +1,5 @@
-import React from "react";
 import FXRates from "./FX-Rates";
 import Layout from "./FX-Rates/components/Layout";
-import "./App.css";
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from "react-redux";
 import reducer from './store';
