@@ -66,7 +66,7 @@ const FXRates = (props: FXRatesProps) => {
 
   useEffect(() => {
     getSymbolsAction();
-  }, []);
+  }, [getSymbolsAction]);
 
   return (
     <React.Fragment>
