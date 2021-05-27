@@ -45,7 +45,7 @@ interface FXRatesProps {
 }
 
 const FXRates = (props: FXRatesProps) => {
-  const { pairsList, symbolsList, deletePair, pending, getPairsAction } = props;
+  const { pairsList, symbolsList, deletePair, pending, getPairsAction, getSymbolsAction } = props;
   const [openAlert, setOpenAlert] = useState({open: false, message: ''});
 
   const onAddNewPair = (pair: Partial<PairData>, validation?: boolean) => {

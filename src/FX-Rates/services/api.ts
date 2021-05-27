@@ -31,5 +31,3 @@ export const getPair = async (base: string, pair: string) => {
   const pairData = { ...data, originalRate}
   return { data: pairData, status};
 }
-
-// export const getPairsData 
